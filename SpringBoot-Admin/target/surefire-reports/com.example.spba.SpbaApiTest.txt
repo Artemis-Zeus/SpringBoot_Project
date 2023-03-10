@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.example.spba.SpbaApiTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 9.787 s <<< FAILURE! - in com.example.spba.SpbaApiTest
+esBlogFindByTitle  Time elapsed: 0.111 s  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Connection refused: no further information; nested exception is java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindByTitle(SpbaApiTest.java:156)
+Caused by: java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindByTitle(SpbaApiTest.java:156)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindByTitle(SpbaApiTest.java:156)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+esBlogSave  Time elapsed: 0.11 s  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Connection refused: no further information; nested exception is java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogSave(SpbaApiTest.java:121)
+Caused by: java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogSave(SpbaApiTest.java:121)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogSave(SpbaApiTest.java:121)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+esBlogFindAll  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Connection refused: no further information; nested exception is java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindAll(SpbaApiTest.java:132)
+Caused by: java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindAll(SpbaApiTest.java:132)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindAll(SpbaApiTest.java:132)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+esBlogFindByTitleOrContent  Time elapsed: 0.005 s  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Connection refused: no further information; nested exception is java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindByTitleOrContent(SpbaApiTest.java:166)
+Caused by: java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindByTitleOrContent(SpbaApiTest.java:166)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindByTitleOrContent(SpbaApiTest.java:166)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+esBlogFindList  Time elapsed: 0.01 s  <<< ERROR!
+org.springframework.dao.DataAccessResourceFailureException: Connection refused: no further information; nested exception is java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindList(SpbaApiTest.java:147)
+Caused by: java.lang.RuntimeException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindList(SpbaApiTest.java:147)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at com.example.spba.SpbaApiTest.esBlogFindList(SpbaApiTest.java:147)
+Caused by: java.net.ConnectException: Connection refused: no further information
+
